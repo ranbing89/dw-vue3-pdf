@@ -3,7 +3,7 @@ vue.js pdf viewer
 
 ## Install
 ```bash
-npm install --save vue-pdf
+npm install --save @dw/vue3-pdf
 ```
 
 ## Example - basic
@@ -13,7 +13,7 @@ npm install --save vue-pdf
 </template>
 
 <script>
-import pdf from 'vue-pdf'
+import pdf from '@dw/vue3-pdf'
 
 export default {
   components: {
@@ -111,7 +111,7 @@ Triggered when an internal link is clicked
 
 <script>
 
-import pdf from 'vue-pdf'
+import pdf from '@dw/vue3-pdf'
 
 export default {
 	components: {
@@ -145,7 +145,7 @@ export default {
 
 <script>
 
-import pdf from 'vue-pdf'
+import pdf from '@dw/vue3-pdf'
 
 var loadingTask = pdf.createLoadingTask('https://cdn.mozilla.net/pdfjs/tracemonkey.pdf');
 
@@ -208,7 +208,7 @@ export default {
 
 <script>
 
-import pdf from 'vue-pdf'
+import pdf from '@dw/vue3-pdf'
 
 export default {
 	components: {
@@ -253,7 +253,7 @@ export default {
 	</div>
 </template>
 <script>
-import pdf from 'vue-pdf'
+import pdf from '@dw/vue3-pdf'
 
 export default {
 	components: {
